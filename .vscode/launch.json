@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.   
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Odoo17",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "python": "C:\\Users\\hp\\Desktop\\odoo17\\.venv\\Scripts\\python.exe",
+            "console": "integratedTerminal",
+            "program": "${workspaceRoot}\\odoo17\\odoo-bin",
+            "args": [
+                "--config=${workspaceRoot}\\odoo17\\odoo.conf"
+            ],
+            "cwd": "${workspaceRoot}\\odoo17",
+            "env": {},
+            "envFile": "${workspaceRoot}\\.env",
+            "debugOptions": [
+                "RedirectOutput"
+            ]
+        }
+    ]
+}
