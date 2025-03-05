@@ -27,10 +27,7 @@ odoo/filestore/
 # Maintenance migration scripts (not needed in version control)
 odoo/addons/base/maintenance/
 
-# Windows installation config file (contains sensitive info)
-#odoo.conf
-# Allow a configuration template for the team
-#!odoo.conf.template
+
 
 # Generated Windows installer files (not needed)
 install/win32/*.bat
@@ -51,15 +48,7 @@ package-lock.json
 !package.json
 
 # Virtual environments and build artifacts (not needed in Git)
-# .venv/
-# bin/
-# build/
-# dist/
-#include/
-#lib/
-#man/
-#share/
-#src/
+
 
 # VS Code settings (keep only necessary files)
 .vscode/
