@@ -46,19 +46,20 @@ node_modules/
 package-lock.json
 .husky
 
+
 # Keep package.json for frontend dependencies
 !package.json
 
 # Virtual environments and build artifacts (not needed in Git)
-.venv/
-bin/
-build/
-dist/
-include/
-lib/
-man/
-share/
-src/
+# .venv/
+# bin/
+# build/
+# dist/
+#include/
+#lib/
+#man/
+#share/
+#src/
 
 # VS Code settings (keep only necessary files)
 .vscode/
