@@ -7,17 +7,17 @@ _build/
 !.github
 !.mailmap
 
-# Compiled Python files
+# Compiled Python files (cache files should be ignored)
 *.py[co]
 __pycache__/
 
-# Setup.py egg_info
+# Setup.py egg_info (Python package metadata)
 *.egg-info
 
 # Emacs backup files
 *~
 
-# Mercurial (hg) files
+# Mercurial (hg) files (should not be tracked)
 *.orig
 status
 
@@ -26,8 +26,6 @@ odoo/filestore/
 
 # Maintenance migration scripts (not needed in version control)
 odoo/addons/base/maintenance/
-
-
 
 # Generated Windows installer files (not needed)
 install/win32/*.bat
@@ -43,12 +41,8 @@ node_modules/
 package-lock.json
 .husky
 
-
 # Keep package.json for frontend dependencies
 !package.json
-
-# Virtual environments and build artifacts (not needed in Git)
-
 
 # VS Code settings (keep only necessary files)
 .vscode/
