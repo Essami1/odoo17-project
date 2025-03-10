@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <menuitem id="menu_purchase_request_root" name="PURCHASE_REQUEST"  sequence="10"/> 
-    <menuitem id="submenu_operation" name="Opportunité" parent="menu_purchase_request_root" sequence="10"/> 
-</odoo>
-

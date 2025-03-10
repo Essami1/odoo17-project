@@ -1,2 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-demande_dachat.access_purchase_request,access_purchase_request,demande_dachat.model_purchase_request,base.group_user,1,1,1,1
