@@ -6,3 +6,5 @@ odoo17/*.pyc
 odoo17/.vscode/ 
 odoo17/odoo.conf 
 odoo17/odoo
+.gitignore
+odoo17/.gitignore
