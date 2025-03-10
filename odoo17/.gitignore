@@ -50,3 +50,8 @@ package-lock.json
 
 # Logs and temporary files
 *.log
+
+
+# Odoo 17 conf
+odoo17/odoo.conf  
+odoo.conf 
