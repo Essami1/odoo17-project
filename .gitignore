@@ -5,4 +5,4 @@ odoo17/*.log
 odoo17/*.pyc 
 odoo17/.vscode/ 
 odoo17/odoo.conf 
-.env 
+odoo17/odoo
