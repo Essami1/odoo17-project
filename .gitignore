@@ -4,6 +4,10 @@
 # Unignore the .gitignore file itself
 !.gitignore
 
-# Unignore only the custum_addons directory inside odoo17/
+# Unignore the parent directory odoo17
+!odoo17/
+
+# Now ignore everything in odoo17 except the custum_addons folder
+odoo17/*
 !odoo17/custum_addons/
 !odoo17/custum_addons/**
