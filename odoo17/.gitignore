@@ -1,57 +1,82 @@
-# Sphinx build directories (documentation)
-_build/
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+/.venv
+/.pytest_cache
 
-# Dotfiles (keep only necessary ones)
-.*
-!.gitignore
-!.github
-!.mailmap
+# C extensions
+*.so
 
-# Compiled Python files (cache files should be ignored)
-*.py[co]
-__pycache__/
+# Distribution / packaging
+.Python
+env/
+bin/
+build/
+develop-eggs/
+dist/
+dist_wo_pbr/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.eggs
 
-# Setup.py egg_info (Python package metadata)
-*.egg-info
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Emacs backup files
-*~
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage\.*
+.coverage\_*
+.cache
+nosetests.xml
+coverage.xml
 
-# Mercurial (hg) files (should not be tracked)
-*.orig
-status
+# Translations
+*.mo
 
-# Odoo filestore (binary storage, should not be committed)
-odoo/filestore/
+# Pycharm
+.idea
 
-# Maintenance migration scripts (not needed in version control)
-odoo/addons/base/maintenance/
+# Eclipse
+.settings
 
-# Generated Windows installer files (not needed)
-install/win32/*.bat
-install/win32/meta.py
+# Visual Studio cache/options directory
+.vs/
+.vscode
 
-# Windows-only dependencies for Odoo installer
-setup/win32/static/less/
-setup/win32/static/wkhtmltopdf/
-setup/win32/static/postgresql*.exe
+# OSX Files
+.DS_Store
 
-# JavaScript tooling (ignore dependencies, keep config)
-node_modules/
-package-lock.json
-.husky
-
-# Keep package.json for frontend dependencies
-!package.json
-
-# VS Code settings (keep only necessary files)
-.vscode/
-!.vscode/launch.json
-
-# Logs and temporary files
+# Django stuff:
 *.log
 
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
 
-# Odoo 17 conf
-odoo17/odoo.conf  
-odoo.conf 
+# Rope
+.ropeproject
+
+# Sphinx documentation
+docs/_build/
+
+# Backup files
+*~
+*.swp
+
+# OCA rules
+!static/lib/
+
+# Auto-generated
+ChangeLog
+.pre-commit-config-local.yaml
+.venv/

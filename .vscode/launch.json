@@ -1,4 +1,7 @@
 {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.   
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -6,15 +9,15 @@
             "type": "python",
             "request": "launch",
             "stopOnEntry": false,
-            "python": "C:/Users/HP/Desktop/odoo17project/odoo17-project/.venv/Scripts/python.exe",
+            "python": "C:\\Users\\hp\\Desktop\\odoo17\\.venv\\Scripts\\python.exe",
             "console": "integratedTerminal",
-            "program": "${workspaceFolder}/odoo17/odoo-bin",
+            "program": "${workspaceRoot}\\odoo17\\odoo-bin",
             "args": [
-                "--config=${workspaceFolder}/odoo17/odoo.conf"
+                "--config=${workspaceRoot}\\odoo17\\odoo.conf"
             ],
-            "cwd": "${workspaceFolder}/odoo17",
+            "cwd": "${workspaceRoot}\\odoo17",
             "env": {},
-            "envFile": "${workspaceFolder}/.env",
+            "envFile": "${workspaceRoot}\\.env",
             "debugOptions": [
                 "RedirectOutput"
             ]
