@@ -1,10 +1,9 @@
-.venv/ 
-__pycache__/ 
-odoo17/logs/ 
-odoo17/*.log 
-odoo17/*.pyc 
-odoo17/.vscode/ 
-odoo17/odoo.conf 
-odoo17/odoo
-.gitignore
-odoo17/.gitignore
+# Ignore everything
+*
+
+# Unignore the .gitignore file itself
+!.gitignore
+
+# Unignore only the custum_addons directory inside odoo17/
+!odoo17/custum_addons/
+!odoo17/custum_addons/**
